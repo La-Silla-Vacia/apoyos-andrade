@@ -213,7 +213,7 @@ class Base extends Component {
               className={cx(s.button, { [s.button__active]: run })}
               onClick={this.handleChange.bind(this, true)}
             >
-              POSICIÓN
+              POSICIÓN FRENTE ANDRADE
             </button>
           </aside>
           <div className={s.items} ref={ c => this.items = c }>
