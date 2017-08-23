@@ -17,13 +17,14 @@
   @media only screen and (max-width: 880px) {
     display: block;
     position: relative;
-    height: 26em;
+    height: 34em;
   }
 }
 
 .sidebar {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 
   @media only screen and (max-width: 880px) {
     position: absolute;
@@ -33,11 +34,12 @@
     left: 0;
     right: 0;
     width: 6em;
+    text-align:center;
   }
 }
 
 .button {
-  background-color: map(colors, red, caribe);
+  background-color: #B6CC66;
   color: #fff;
   font-family: map(fonts, family-sans);
   padding: .4em 1em;
@@ -51,7 +53,7 @@
   z-index: 5;
 
   &:hover {
-    background-color: #f12d4d;
+    background-color: #92a746;
   }
 
   &:focus {
@@ -61,7 +63,7 @@
 
   &__active,
   &__active:hover {
-    background-color: #a22136;
+    background-color: #92a746;
   }
 
   &::after {
@@ -100,9 +102,10 @@
   display: block;
   width: 100%;
   position: relative;
+  height: 600px;
 
   @media only screen and (max-width: 880px) {
-    height: 100%
+    height: 100%;
   }
 }
 

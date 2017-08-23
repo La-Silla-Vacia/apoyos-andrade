@@ -10,12 +10,12 @@
   cursor: pointer;
   padding: 2px;
   background: transparent;
-  border: 0;
+  border: 0 white;
 
   &:hover,
   &:focus {
     & .inside {
-      border: 1px solid map(colors, red, caribe);
+      border: 2px solid black;
     }
   }
 
@@ -25,13 +25,13 @@
 }
 
 .inside {
-  background-color: map(colors, red, caribe);
+  background-color: black;
   border-radius: 50%;
   display: block;
   width: 100%;
   height: 100%;
   overflow: hidden;
-  transition: border .4s;
+  transition: .4s;
   & .image {
     width: 100%;
     height: 100%;

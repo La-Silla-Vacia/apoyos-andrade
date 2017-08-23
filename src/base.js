@@ -210,16 +210,10 @@ class Base extends Component {
         <div className={s.wrap}>
           <aside className={s.sidebar}>
             <button
-              className={cx(s.button, { [s.button__active]: !run })}
-              onClick={this.handleChange.bind(this, false)}
-            >
-              HOY
-            </button>
-            <button
               className={cx(s.button, { [s.button__active]: run })}
               onClick={this.handleChange.bind(this, true)}
             >
-              EN 2018
+              POSICIÓN
             </button>
           </aside>
           <div className={s.items} ref={ c => this.items = c }>
