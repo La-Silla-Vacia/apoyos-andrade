@@ -100,12 +100,13 @@
   border-bottom: 0;
   clear: fix;
   display: block;
-  width: 80%;
+  width: 90%;
   position: relative;
   height: 600px;
 
   @media only screen and (max-width: 880px) {
     height: 100%;
+    width: 100%;
   }
 }
 
